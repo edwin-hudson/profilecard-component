@@ -91,7 +91,7 @@ section {
 
 .profile .image img {
     border-radius: 50%;
-    top: 50;
+    /* top: 50%; */
     border: solid 0.32rem var(--white);
 }
 
