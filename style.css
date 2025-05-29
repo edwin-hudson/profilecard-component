@@ -11,10 +11,7 @@
 --Dark_gray: hsl(0, 0%, 59%);
 --white: hsl(0, 0%, 100%);
 
-/* ## Typography */
-/* --Font_size (name and stats): 18px */
 }
-
 
 * {
     padding: 0;
@@ -53,21 +50,12 @@ main {
 }
 
 .image1 {
-    transform: translate(-0%, -50%);
-    -webkit-transform: translate(-0%, -50%);
-    -moz-transform: translate(-0%, -50%);
-    -ms-transform: translate(-0%, -50%);
-    -o-transform: translate(-0%, -50%);
+    transform: translate(-5%, -50%);
 }
 
 .image2 {
-    transform: translate(0%, 25%);
-    -webkit-transform: translate(0%, 25%);
-    -moz-transform: translate(0%, 25%);
-    -ms-transform: translate(0%, 25%);
-    -o-transform: translate(0%, 25%);
+    transform: translate(-10%, 25%);
 }
-
 
 
 /* Card design */
@@ -171,3 +159,4 @@ footer {
     color: var(--Dark-grayish-blue);
     letter-spacing: 0.1ch;
 }
+
