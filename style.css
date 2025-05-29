@@ -20,3 +20,34 @@
     box-sizing: border-box;
     font-family: "Kumbh Sans", sans-serif;
 } 
+
+body {
+    background: var(--Dark-cyan);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    max-width: 120rem;
+    max-height: 90rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg {
+    width: 80rem;
+}
+
+.image1 {
+    transform: translate(-26rem, 10rem);
+}
+
+
+.image2 {
+    transform: translate(50rem, -5rem);
+}
+
