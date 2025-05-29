@@ -38,6 +38,13 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
+}
+
+.pictures {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .bg {
@@ -45,12 +52,21 @@ main {
 }
 
 .image1 {
-    transform: translate(-26rem, 10rem);
+    transform: translate(-0%, -50%);
+    -webkit-transform: translate(-0%, -50%);
+    -moz-transform: translate(-0%, -50%);
+    -ms-transform: translate(-0%, -50%);
+    -o-transform: translate(-0%, -50%);
 }
 
 .image2 {
-    transform: translate(55rem, -5rem);
+    transform: translate(0%, 25%);
+    -webkit-transform: translate(0%, 25%);
+    -moz-transform: translate(0%, 25%);
+    -ms-transform: translate(0%, 25%);
+    -o-transform: translate(0%, 25%);
 }
+
 
 
 /* Card design */
@@ -80,7 +96,8 @@ section {
 
 .profile .image {
     position: absolute;
-    transform: translateY(-75%);
+    /* transform: translateY(-75%); */
+    margin-top: -150px;
 }
 
 .profile .image img {
