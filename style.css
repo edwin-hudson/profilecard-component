@@ -52,6 +52,8 @@ main {
     transform: translate(55rem, -5rem);
 }
 
+
+/* Card design */
 section {
     position: absolute;
     background: var(--white);
@@ -71,8 +73,10 @@ section {
     align-items: center;
     justify-content: center;
     position: relative;
+    top: 0.7rem;
     height: 9rem;
 }
+
 
 .profile .image {
     position: absolute;
@@ -85,11 +89,11 @@ section {
     border: solid 0.32rem var(--white);
 }
 
-
 .person {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 1.8rem;
 }
 
 .desc {
@@ -102,18 +106,22 @@ section {
 
 .desc .name {
     font-size: 1.3rem;
+    font-weight: 700;
     color: var(--Very-dark-blue);
 }
 
 
 .desc .age {
-    font-size: 1rem;
-    color: var(--Very-dark-blue);
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: var(--Dark_gray);
+    margin-left: 0.5rem;
 }
 
 .location {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 500;
+    padding-top: 0.5rem;
     color: var(--Dark_gray);
 }
 
@@ -123,7 +131,7 @@ footer {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 1.3rem;
     border-top: solid 0.01rem var(--Dark-grayish);
 }
 
@@ -141,6 +149,7 @@ footer {
 
 .stats {
     font-size: 0.7rem;
+    font-weight: 500;
     color: var(--Dark-grayish-blue);
     letter-spacing: 0.1ch;
 }
