@@ -33,6 +33,7 @@ body {
 
 main {
     max-width: 120rem;
+    height: 90rem;
     max-height: 90rem;
     display: flex;
     flex-direction: column;
