@@ -4,10 +4,12 @@
 --Dark-cyan: hsl(185, 75%, 39%);
 --Very-dark-blue: hsl(229, 23%, 23%);
 --Dark-grayish-blue: hsl(227, 10%, 46%);
+--Dark-grayish: hsl(228, 33%, 88%);
 
 /* ### Neutral */
 
 --Dark_gray: hsl(0, 0%, 59%);
+--white: hsl(0, 0%, 100%);
 
 /* ## Typography */
 /* --Font_size (name and stats): 18px */
@@ -46,8 +48,99 @@ main {
     transform: translate(-26rem, 10rem);
 }
 
-
 .image2 {
-    transform: translate(50rem, -5rem);
+    transform: translate(55rem, -5rem);
 }
 
+section {
+    position: absolute;
+    background: var(--white);
+    top: 13rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 9rem;
+}
+
+.profile .image {
+    position: absolute;
+    transform: translateY(-75%);
+}
+
+.profile .image img {
+    border-radius: 50%;
+    top: 50;
+    border: solid 0.32rem var(--white);
+}
+
+
+.person {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.desc .name {
+    font-size: 1.3rem;
+    color: var(--Very-dark-blue);
+}
+
+
+.desc .age {
+    font-size: 1rem;
+    color: var(--Very-dark-blue);
+}
+
+.location {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--Dark_gray);
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1rem;
+    border-top: solid 0.01rem var(--Dark-grayish);
+}
+
+.summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.details {
+    font-size: 1.15rem;
+    color: var(--Very-dark-blue);
+}
+
+.stats {
+    font-size: 0.7rem;
+    color: var(--Dark-grayish-blue);
+    letter-spacing: 0.1ch;
+}
